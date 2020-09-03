@@ -1,0 +1,766 @@
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+5 Assembly Errors, No Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at line 83: [E0002] Illegal mnemonic specified
+	SORT		//R7 is your constant top address, R6 and R13 are looses
+ 
+"../main.asm", ERROR!   at line 88: [E0004] Illegal destination operand
+				dec @R9			;Sets values of R9 as n-1
+ 
+"../main.asm", ERROR!   at line 91: [E0004] Illegal destination operand
+	RUN			dec @R8
+ 
+"../main.asm", ERROR!   at line 110: [E0004] Illegal destination operand
+	SWAP		mov.w R12, @R6 	;Places lesser value in R6's address
+ 
+"../main.asm", ERROR!   at line 111: [E0004] Illegal destination operand
+				mov.w R11, @R13 ;Places higher value in R13's address
+ 
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+4 Assembly Errors, No Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at line 87: [E0004] Illegal destination operand
+				dec @R9			;Sets values of R9 as n-1
+ 
+"../main.asm", ERROR!   at line 90: [E0004] Illegal destination operand
+	RUN			dec @R8
+ 
+"../main.asm", ERROR!   at line 109: [E0004] Illegal destination operand
+	SWAP		mov.w R12, @R6 	;Places lesser value in R6's address
+ 
+"../main.asm", ERROR!   at line 110: [E0004] Illegal destination operand
+				mov.w R11, @R13 ;Places higher value in R13's address
+ 
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+2 Assembly Errors, No Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at line 109: [E0004] Illegal destination operand
+	SWAP		mov.w R12, @R6 	;Places lesser value in R6's address
+ 
+"../main.asm", ERROR!   at line 110: [E0004] Illegal destination operand
+				mov.w R11, @R13 ;Places higher value in R13's address
+ 
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+3 Assembly Errors, No Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.asm", ERROR!   at line 31: [E0003] Invalid octal constant specified
+				clr &0208
+ 
+"../main.asm", ERROR!   at line 32: [E0003] Invalid octal constant specified
+				clr &020A
+ 
+"../main.asm", ERROR!   at line 33: [E0003] Invalid octal constant specified
+				clr &020C
+ 
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 2/lab 2 project" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "lab 2 project.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --code_model=small --data_model=small --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"lab 2 project.map" --heap_size=0 --stack_size=0 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="lab 2 project_linkInfo.xml" --entry_point=RESET --use_hw_mpy=none -o "lab 2 project.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "lab 2 project.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project lab 2 project ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'lab 2 project.out' is up to date.
+
+**** Build Finished ****

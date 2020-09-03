@@ -1,0 +1,2461 @@
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2744__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 30: error #20: identifier "bool" is undefined
+"../main.c", line 31: error #20: identifier "bool" is undefined
+"../main.c", line 34: error #66: expected a ";"
+"../main.c", line 53: warning #12-D: parsing restarts here after previous syntax error
+"../main.c", line 11: remark #1535-D: (ULP 8.1) variable "pattern3" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+3 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2744__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 30: error #20: identifier "bool" is undefined
+"../main.c", line 31: error #20: identifier "bool" is undefined
+"../main.c", line 44: error #20: identifier "bool" is undefined
+"../main.c", line 45: error #20: identifier "bool" is undefined
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2744__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 30: error #20: identifier "boolean" is undefined
+"../main.c", line 31: error #20: identifier "bool" is undefined
+"../main.c", line 44: error #20: identifier "bool" is undefined
+"../main.c", line 45: error #20: identifier "bool" is undefined
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 39: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2744__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2744__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU19 -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2744.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 clean -O 
+ 
+rm -rf  "Lab4.hex"  "Lab4.out" 
+rm -rf "main.obj" 
+rm -rf "main.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 40: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 52: error #20: identifier "pattern3l" is undefined
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 52: error #20: identifier "pattern3l" is undefined
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 52: error #20: identifier "pattern3l" is undefined
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 46: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 46: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 32: warning #179-D: variable "isROT" was declared but never referenced
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 46: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 32: warning #179-D: variable "isROT" was declared but never referenced
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 46: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 32: warning #179-D: variable "isROT" was declared but never referenced
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 53: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 45: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 31: warning #179-D: variable "isROT" was declared but never referenced
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 45: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 31: warning #179-D: variable "isROT" was declared but never referenced
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 45: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 31: warning #179-D: variable "isROT" was declared but never referenced
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 45: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 31: warning #179-D: variable "isROT" was declared but never referenced
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 45: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 31: warning #179-D: variable "isROT" was declared but never referenced
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 52: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 47: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 54: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 47: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 54: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 56: error #20: identifier "isFast" is undefined
+"../main.c", line 55: warning #179-D: variable "isFAST" was declared but never referenced
+"../main.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 57: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 59: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 62: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 62: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 62: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 41: error #66: expected a ";"
+"../main.c", line 48: warning #551-D: variable "isRIGHT" is used before its value is set
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 40: warning #179-D: variable "isLEFT" was declared but never referenced
+"../main.c", line 41: warning #179-D: variable "isRIGHT" was declared but never referenced
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 61: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 62: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 64: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 62: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 64: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 62: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 64: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 62: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 64: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 62: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 64: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 62: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 64: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 65: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 65: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 63: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 65: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 60: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 56: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 56: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 56: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 12: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 56: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 56: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 56: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 58: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 12: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 39: error #29: expected an expression
+"../main.c", line 48: error #128: expected a statement
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 79: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 42: error #20: identifier "is" is undefined
+"../main.c", line 42: error #18: expected a ")"
+"../main.c", line 40: warning #179-D: variable "isPIN2" was declared but never referenced
+"../main.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 84: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 84: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 84: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 84: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 84: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 84: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 46: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 84: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 84: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 48: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 48: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 48: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 48: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 48: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 48: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 48: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 48: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 48: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 86: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 88: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 55: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 89: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 91: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 55: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 89: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 91: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 55: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 89: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 91: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 89: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 91: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 55: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 89: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 91: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 55: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 89: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 91: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 55: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 89: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 91: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 89: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 91: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 56: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 56: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 56: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:7: recipe for target 'main.obj' failed
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 99: error #171: expected a declaration
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 4/Lab4" --include_path="/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 90: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 92: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 16: remark #1535-D: (ULP 8.1) variable "SW" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../main.c"
+ 
+Building target: "Lab4.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"Lab4.map" --heap_size=80 --stack_size=80 -i"/Applications/ti/ccs1000/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"/Applications/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab4_linkInfo.xml" --use_hw_mpy=none --rom_model -o "Lab4.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+/Applications/ti/ccs1000/ccs/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ti.ccstudio.project.ui.internal.preferences.DynamicPreferencePageManager">
+	</section>
+	<section name="com.ti.ccstudio.project.ui.internal.properties.DynamicPropertiesPageManager">
+	</section>
+	<section name="com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage">
+		<item key="CCS.BROWSE_DIRS_FILTER" value="/Users/keino/Desktop/Desktop Items/School Work/FAU - Summer 2020/CDA 3331/Labs/Lab 0v1/lab0v1"/>
+		<item key="CCS.COPY_INTO_WORKSPACE" value="false"/>
+		<item key="CCS.IMPORT_REFERENCED_PROJECTS" value="false"/>
+		<item key="CCS.IMPORT_FROM_ARCHIVE" value="false"/>
+	</section>
+</section>
