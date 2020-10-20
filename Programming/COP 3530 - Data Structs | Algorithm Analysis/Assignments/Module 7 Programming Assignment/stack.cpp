@@ -82,7 +82,7 @@ bool isValid(const string& userInput){
     int oper = 0;   //number of operators
 
     for(int i = 0; i< userInput.length(); i++){ //count operands and operators
-        if(isalpha(userInput[i]))
+        if(isalnum(userInput[i]))
             ops++;
         else if(!isspace(userInput[i]))
             oper++;
@@ -156,7 +156,7 @@ void stack::convert(string postfix){
 
 
     for(char o: postfix){ //for every character that is in the postfix expression
-        if(isalpha(o)){     //if it is an alphabetically character...
+        if(isalnum(o)){     //if it is an alphabetical/numerical character...
             string temp(1,o);   //make it into a string(cant push chars)
             push(temp);         //push the char/string
         }else if(o == '+' || o == '-' || o == '*' || o == '/'){ //if it is an operator
