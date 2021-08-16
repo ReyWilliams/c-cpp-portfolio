@@ -1,2 +1,2 @@
 # portfolio
-Portfolio of Completed Works
+Portfolio of Completed Coursework, primarly done in C/C++
